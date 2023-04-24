@@ -18,7 +18,7 @@ forceCoeffs
     log             yes;
 
     // specify the patches on which to compute forces
-    patches         (cylinder);
+    patches         (triangle);
 
     // forces
     liftDir         (0 1 0);    // Lift direction, y
@@ -31,7 +31,7 @@ forceCoeffs
     // references
     magUInf         1.0;        // reference velocity
     lRef            1.0;        // reference length for moment 
-    Aref            0.1;        // reference area (frontal area of circular cylinder -- recall diameter is 1 and z-span is 0.05*2 = 0.1)
+    Aref            .1;        // reference area (frontal area of circular cylinder -- recall diameter is 1 and z-span is 0.05*2 = 0.1)
 
     // do not change
     rho             rhoInf;     // Incompressible

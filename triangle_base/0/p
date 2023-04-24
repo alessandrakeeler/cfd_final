@@ -41,7 +41,7 @@ boundaryField
         type            symmetryPlane;
     }
 
-    cylinder 
+    triangle 
     {
         type            zeroGradient;
     }
