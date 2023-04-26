@@ -2,7 +2,7 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  7
+    \\  /    A nd           | Version:  8
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -358,8 +358,8 @@ boundaryField
     outlet
     {
         type            inletOutlet;
-        inletValue      nonuniform 0();
-        value           nonuniform 0();
+        inletValue      nonuniform List<scalar> 0();
+        value           nonuniform List<scalar> 0();
     }
     triangle
     {
@@ -424,8 +424,8 @@ boundaryField
 1.4142
 1.49031
 1.49073
-1.49101
-1.491
+1.49102
+1.49099
 1.49087
 1.49077
 1.49075

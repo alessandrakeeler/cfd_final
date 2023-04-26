@@ -1,6 +1,0 @@
-/work2/08353/askeeler/stampede2/cfd_final/run1_triangle
-Wed Apr 26 15:29:48 CDT 2023
-Running decomposePar on /work2/08353/askeeler/stampede2/cfd_final/run1_triangle
-Running rhoCentralFoam in parallel on /work2/08353/askeeler/stampede2/cfd_final/run1_triangle using 8 processes
-Running reconstructPar on /work2/08353/askeeler/stampede2/cfd_final/run1_triangle
-Wed Apr 26 15:30:56 CDT 2023

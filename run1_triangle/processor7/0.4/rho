@@ -2,7 +2,7 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  7
+    \\  /    A nd           | Version:  8
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -67,10 +67,10 @@ internalField   nonuniform List<scalar>
 1.91656
 1.51004
 1.39398
-1.37058
+1.37057
 1.36449
 1.94289
-1.90754
+1.90753
 1.52002
 1.39462
 1.37084
@@ -82,12 +82,12 @@ internalField   nonuniform List<scalar>
 1.37078
 1.36414
 2.00856
-1.92344
+1.92343
 1.55376
 1.40077
 1.37069
 1.3638
-1.95772
+1.95771
 1.92198
 1.57752
 1.40554
@@ -107,7 +107,7 @@ internalField   nonuniform List<scalar>
 1.36254
 1.70693
 1.9392
-1.64285
+1.64284
 1.41474
 1.36836
 1.36233
@@ -183,9 +183,9 @@ internalField   nonuniform List<scalar>
 1.4001
 1.35344
 1.35687
-2.18528
+2.18529
 2.15158
-1.73592
+1.73593
 1.39558
 1.35163
 1.35641
@@ -231,7 +231,7 @@ internalField   nonuniform List<scalar>
 1.36162
 1.33906
 1.35422
-2.95085
+2.95086
 2.45319
 1.67069
 1.34658
@@ -307,7 +307,7 @@ internalField   nonuniform List<scalar>
 2.63602
 1.76257
 1.44342
-1.42669
+1.42668
 1.41432
 3.2234
 2.67533
@@ -328,10 +328,10 @@ internalField   nonuniform List<scalar>
 1.431
 1.40807
 3.17713
-2.73894
-1.86805
+2.73895
+1.86804
 1.48471
-1.42216
+1.42215
 1.40483
 3.14831
 2.75053
@@ -339,9 +339,9 @@ internalField   nonuniform List<scalar>
 1.47099
 1.41092
 1.40275
-3.12397
+3.12398
 2.76047
-1.86604
+1.86603
 1.44963
 1.40243
 1.40186
@@ -353,7 +353,7 @@ boundaryField
     inlet
     {
         type            calculated;
-        value           nonuniform 0();
+        value           nonuniform List<scalar> 0();
     }
     outlet
     {
@@ -421,7 +421,7 @@ boundaryField
     triangle
     {
         type            calculated;
-        value           nonuniform 0();
+        value           nonuniform List<scalar> 0();
     }
     top
     {
@@ -451,12 +451,12 @@ boundaryField
         value           nonuniform List<scalar> 
 47
 (
-1.40768
+1.40769
 1.48479
 1.55557
 1.53564
-1.45975
-1.16886
+1.45974
+1.16885
 0.956082
 0.986283
 1.0461
@@ -493,11 +493,11 @@ boundaryField
 3.3511
 3.34246
 3.32441
-3.29541
+3.29542
 3.24921
 3.19085
 3.13563
-3.09349
+3.0935
 )
 ;
     }

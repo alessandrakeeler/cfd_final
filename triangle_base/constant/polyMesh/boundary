@@ -31,8 +31,8 @@ FoamFile
     }
     triangle
     {
-        type            wall;
-        inGroups        List<word> 1(wall);
+        type            patch;
+        inGroups        List<word> 1(patch);
         nFaces          40;
         startFace       5240;
     }

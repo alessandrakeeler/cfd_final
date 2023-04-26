@@ -8,9 +8,9 @@
 Build  : 8
 Exec   : blockMesh
 Date   : Apr 26 2023
-Time   : 15:29:28
+Time   : 15:54:57
 Host   : "login3.stampede2.tacc.utexas.edu"
-PID    : 215744
+PID    : 149316
 I/O    : uncollated
 Case   : /work2/08353/askeeler/stampede2/cfd_final/run1_triangle
 nProcs : 1

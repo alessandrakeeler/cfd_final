@@ -2,15 +2,15 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  7
+    \\  /    A nd           | Version:  8
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
-Build  : 7-49b2b3b8b082
+Build  : 8
 Exec   : reconstructPar
 Date   : Apr 26 2023
-Time   : 15:30:45
-Host   : "c410-012.stampede2.tacc.utexas.edu"
-PID    : 119611
+Time   : 15:55:18
+Host   : "login3.stampede2.tacc.utexas.edu"
+PID    : 167358
 I/O    : uncollated
 Case   : /work2/08353/askeeler/stampede2/cfd_final/run1_triangle
 nProcs : 1

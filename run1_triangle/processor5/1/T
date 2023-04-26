@@ -2,7 +2,7 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  7
+    \\  /    A nd           | Version:  8
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -25,47 +25,47 @@ internalField   nonuniform List<scalar>
 2.30871
 2.30727
 1.0172
-1.65152
+1.65151
 2.2181
 2.23668
 2.25755
 2.2755
 1.01022
-1.04081
+1.0408
 1.87297
 2.24932
 2.23607
 2.23313
-1.00897
+1.00896
 1.00963
-1.14856
+1.14855
 2.01954
 2.19472
-2.17812
+2.17813
 1.0079
 1.00853
 1.00934
-1.33706
+1.33705
 2.04997
 2.15991
 1.00705
 1.00745
 1.00791
 1.00983
-1.74633
+1.74631
 2.12598
 1.0061
 1.00651
 1.00695
 1.0079
-1.12844
+1.12843
 1.97127
 1.00545
 1.00589
 1.00649
 1.00713
 1.00814
-1.39618
+1.39617
 1.00464
 1.00496
 1.00542
@@ -353,13 +353,13 @@ boundaryField
     inlet
     {
         type            fixedValue;
-        value           nonuniform 0();
+        value           nonuniform List<scalar> 0();
     }
     outlet
     {
         type            inletOutlet;
-        inletValue      nonuniform 0();
-        value           nonuniform 0();
+        inletValue      nonuniform List<scalar> 0();
+        value           nonuniform List<scalar> 0();
     }
     triangle
     {
@@ -380,7 +380,7 @@ boundaryField
     procBoundary5to1
     {
         type            processor;
-        value           nonuniform List<scalar> 6(1.32242 2.12372 2.12372 1.00701 1 1);
+        value           nonuniform List<scalar> 6(1.32241 2.12371 2.12371 1.00701 1 1);
     }
     procBoundary5to4
     {
@@ -444,8 +444,8 @@ boundaryField
 2.13984
 2.13339
 2.05483
-1.8356
-1.2496
+1.83559
+1.24958
 1.01165
 1.00458
 1.00353

@@ -2,7 +2,7 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  7
+    \\  /    A nd           | Version:  8
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -56,7 +56,7 @@ internalField   nonuniform List<scalar>
 2.07211
 1.87142
 2.01752
-2.0578
+2.05779
 2.06119
 2.05807
 2.0558
@@ -84,7 +84,7 @@ internalField   nonuniform List<scalar>
 1.97736
 2.0474
 2.03888
-1.5865
+1.58649
 1.58533
 1.59353
 1.78297
@@ -107,7 +107,7 @@ internalField   nonuniform List<scalar>
 1.55683
 1.55717
 1.56731
-1.74835
+1.74836
 1.55346
 1.55238
 1.55215
@@ -259,7 +259,7 @@ internalField   nonuniform List<scalar>
 1.53063
 1.5306
 1.53041
-1.52737
+1.52738
 1.5287
 1.52982
 1.53056
@@ -284,14 +284,14 @@ internalField   nonuniform List<scalar>
 1.52891
 1.53047
 1.53144
-1.53161
+1.53162
 1.53166
 1.53155
 1.52725
 1.52898
 1.53055
 1.53151
-1.53167
+1.53168
 1.53172
 1.5316
 1.5273
@@ -304,14 +304,14 @@ internalField   nonuniform List<scalar>
 1.52733
 1.52897
 1.53047
-1.5314
+1.53141
 1.53159
 1.53166
 1.53156
 1.52734
 1.52896
 1.53044
-1.53137
+1.53138
 1.53157
 1.53164
 1.53155
@@ -337,8 +337,8 @@ internalField   nonuniform List<scalar>
 1.49003
 1.49031
 1.49073
-1.49101
-1.491
+1.49102
+1.49099
 1.49087
 1.49077
 1.49075
@@ -353,13 +353,13 @@ boundaryField
     inlet
     {
         type            fixedValue;
-        value           nonuniform 0();
+        value           nonuniform List<scalar> 0();
     }
     outlet
     {
         type            inletOutlet;
-        inletValue      nonuniform 0();
-        value           nonuniform 0();
+        inletValue      nonuniform List<scalar> 0();
+        value           nonuniform List<scalar> 0();
     }
     triangle
     {
@@ -444,10 +444,10 @@ boundaryField
 2.06396
 2.04963
 2.04536
-2.04247
+2.04246
 2.0397
-2.03577
-2.03057
+2.03576
+2.03056
 2.02254
 2.01562
 1.97616

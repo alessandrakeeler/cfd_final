@@ -2,15 +2,15 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  7
+    \\  /    A nd           | Version:  8
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
-Build  : 7-49b2b3b8b082
+Build  : 8
 Exec   : decomposePar
 Date   : Apr 26 2023
-Time   : 15:29:57
-Host   : "c410-012.stampede2.tacc.utexas.edu"
-PID    : 119090
+Time   : 15:55:06
+Host   : "login3.stampede2.tacc.utexas.edu"
+PID    : 156605
 I/O    : uncollated
 Case   : /work2/08353/askeeler/stampede2/cfd_final/run1_triangle
 nProcs : 1
@@ -28,26 +28,9 @@ Decomposing mesh region0
 Create mesh
 
 Calculating distribution of cells
- Foam::decompositionMethod::New 
-{
-    numberOfSubdomains 8;
-    method          hierarchical;
-    simpleCoeffs
-    {
-        n               ( 4 2 1 );
-        delta           0.001;
-    }
-    hierarchicalCoeffs
-    {
-        n               ( 4 2 1 );
-        delta           0.001;
-        order           xyz;
-    }
-}
-
 Selecting decompositionMethod hierarchical
 
-Finished decomposition in 0.02 s
+Finished decomposition in 0 s
 
 Calculating original mesh data
 

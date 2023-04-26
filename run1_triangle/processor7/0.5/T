@@ -2,7 +2,7 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  7
+    \\  /    A nd           | Version:  8
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -22,7 +22,7 @@ internalField   nonuniform List<scalar>
 (
 1.74241
 1.65625
-1.43512
+1.43513
 1.14336
 1.8473
 1.8053
@@ -67,7 +67,7 @@ internalField   nonuniform List<scalar>
 1.81144
 1.74241
 1.65625
-1.43512
+1.43513
 1.14336
 1.76167
 1.77679
@@ -154,15 +154,15 @@ internalField   nonuniform List<scalar>
 1.39957
 1.19329
 1.15829
-1.16358
+1.16357
 1.36749
 1.43415
 1.39382
 1.19773
 1.18113
 1.17067
-1.30239
-1.40213
+1.30238
+1.40212
 1.38132
 1.20176
 1.20374
@@ -186,7 +186,7 @@ internalField   nonuniform List<scalar>
 1.27852
 1.22831
 1.2626
-1.33633
+1.33632
 1.35308
 1.21003
 1.30252
@@ -252,7 +252,7 @@ internalField   nonuniform List<scalar>
 1.54685
 1.45784
 1.41185
-1.41618
+1.41617
 1.40571
 1.24426
 1.57197
@@ -303,7 +303,7 @@ internalField   nonuniform List<scalar>
 1.46515
 1.38929
 1.1984
-1.62569
+1.6257
 1.58967
 1.5286
 1.46847
@@ -330,14 +330,14 @@ internalField   nonuniform List<scalar>
 1.59447
 1.58511
 1.54915
-1.4946
+1.49459
 1.41908
 1.23869
 1.6017
 1.58973
 1.55443
 1.49865
-1.42118
+1.42117
 1.24194
 1.60723
 1.59296
@@ -353,7 +353,7 @@ boundaryField
     inlet
     {
         type            fixedValue;
-        value           nonuniform 0();
+        value           nonuniform List<scalar> 0();
     }
     outlet
     {
@@ -438,7 +438,7 @@ boundaryField
     procBoundary7to2
     {
         type            processor;
-        value           nonuniform List<scalar> 7(1.69494 1.67502 1.6507 1.79468 1.79468 1.82614 1.8473);
+        value           nonuniform List<scalar> 7(1.69494 1.67502 1.6507 1.79469 1.79469 1.82614 1.8473);
     }
     procBoundary7to3
     {
@@ -488,15 +488,15 @@ boundaryField
 1.71595
 1.72422
 1.72195
-1.7132
+1.71321
 1.69402
 1.6635
 1.62581
-1.59628
+1.59629
 1.58468
 1.5817
 1.57886
-1.57531
+1.57532
 1.57216
 )
 ;

@@ -2,7 +2,7 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  7
+    \\  /    A nd           | Version:  8
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -20,52 +20,52 @@ dimensions      [1 -3 0 0 0 0 0];
 internalField   nonuniform List<scalar> 
 325
 (
-5.63591
-5.0134
+5.63594
+5.01341
 4.72062
 4.5745
 1.43079
-2.82523
+2.8252
 4.6848
 4.6124
-4.59157
+4.59156
 4.566
 1.41633
 1.47221
-3.35497
-4.78101
-4.74333
+3.35495
+4.78099
+4.74332
 4.69388
 1.41872
 1.4215
-1.6673
-3.93203
-4.86946
+1.66729
+3.932
+4.86945
 4.76146
-1.42129
+1.42128
 1.42411
 1.42786
-2.10397
-4.59803
+2.10394
+4.598
 4.80701
 1.42223
 1.42417
 1.42618
-1.43183
-3.20193
+1.43182
+3.20189
 4.63101
 1.4205
 1.42208
 1.42377
 1.42663
-1.66235
-3.88358
+1.66234
+3.88355
 1.41883
 1.4204
 1.42251
 1.4248
 1.42832
-2.28349
+2.28345
 1.41605
 1.41717
 1.41876
@@ -87,7 +87,7 @@ internalField   nonuniform List<scalar>
 1.40963
 1.41021
 1.41096
-1.41175
+1.41174
 1.41277
 1.4137
 1.40759
@@ -353,17 +353,17 @@ boundaryField
     inlet
     {
         type            calculated;
-        value           nonuniform 0();
+        value           nonuniform List<scalar> 0();
     }
     outlet
     {
         type            calculated;
-        value           nonuniform 0();
+        value           nonuniform List<scalar> 0();
     }
     triangle
     {
         type            calculated;
-        value           nonuniform List<scalar> 4(5.63591 5.0134 4.72062 4.5745);
+        value           nonuniform List<scalar> 4(5.63594 5.01341 4.72062 4.5745);
     }
     top
     {
@@ -380,7 +380,7 @@ boundaryField
     procBoundary5to1
     {
         type            processor;
-        value           nonuniform List<scalar> 6(2.27222 5.02058 5.02058 1.41002 1.4 1.4);
+        value           nonuniform List<scalar> 6(2.2722 5.02055 5.02055 1.41002 1.4 1.4);
     }
     procBoundary5to4
     {
@@ -440,12 +440,12 @@ boundaryField
 4.47773
 4.5747
 4.64919
-4.68551
+4.68552
 4.65267
 4.66555
-4.4202
-3.35186
-1.93648
+4.42018
+3.35182
+1.93645
 1.43398
 1.41604
 1.41234

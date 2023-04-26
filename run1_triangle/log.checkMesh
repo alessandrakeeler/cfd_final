@@ -8,9 +8,9 @@
 Build  : 8
 Exec   : checkMesh
 Date   : Apr 26 2023
-Time   : 15:29:29
+Time   : 15:54:58
 Host   : "login3.stampede2.tacc.utexas.edu"
-PID    : 216011
+PID    : 151022
 I/O    : uncollated
 Case   : /work2/08353/askeeler/stampede2/cfd_final/run1_triangle
 nProcs : 1

@@ -2,7 +2,7 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  7
+    \\  /    A nd           | Version:  8
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -31,53 +31,53 @@ internalField   nonuniform List<scalar>
 2.50225
 2.5109
 1.6039
-2.10282
+2.10281
 2.28822
 2.35133
 2.37041
 2.38276
 1.1852
-1.59469
-2.05041
+1.59468
+2.0504
 2.17264
 2.18756
 2.19805
 1.08185
-1.12805
-1.74452
+1.12804
+1.74451
 2.0775
 2.07843
 2.07726
 1.06593
 1.06529
 1.18912
-1.86596
-2.04356
+1.86595
+2.04355
 2.02515
 1.05156
-1.05353
+1.05352
 1.05479
-1.31249
-1.94358
+1.31248
+1.94357
 2.01221
 1.03937
 1.04126
 1.04319
 1.04888
-1.58599
+1.58598
 1.99342
 1.0302
 1.03123
 1.03239
 1.03377
-1.10074
-1.82942
+1.10073
+1.82941
 1.02387
 1.02545
 1.02734
 1.02951
 1.03162
-1.28502
+1.28501
 1.01801
 1.01903
 1.02043
@@ -353,13 +353,13 @@ boundaryField
     inlet
     {
         type            fixedValue;
-        value           nonuniform 0();
+        value           nonuniform List<scalar> 0();
     }
     outlet
     {
         type            inletOutlet;
-        inletValue      nonuniform 0();
-        value           nonuniform 0();
+        inletValue      nonuniform List<scalar> 0();
+        value           nonuniform List<scalar> 0();
     }
     triangle
     {
@@ -380,7 +380,7 @@ boundaryField
     procBoundary5to1
     {
         type            processor;
-        value           nonuniform List<scalar> 6(2.51322 2.65595 2.65595 1.32762 0.999999 0.999999);
+        value           nonuniform List<scalar> 6(2.51322 2.65595 2.65595 1.32761 0.999999 0.999999);
     }
     procBoundary5to4
     {
@@ -439,18 +439,18 @@ boundaryField
 2.55936
 2.50548
 2.39158
-2.21348
+2.21347
 2.08259
 2.01271
 1.99899
 2.00141
 2.01728
-1.9526
-1.67029
-1.16521
+1.95259
+1.67026
+1.16519
 1.02134
 1.01388
-1.01035
+1.01034
 1.00777
 1.00599
 1.00479

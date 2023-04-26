@@ -2,7 +2,7 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  7
+    \\  /    A nd           | Version:  8
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -32,7 +32,7 @@ internalField   nonuniform List<scalar>
 1.34395
 1.38351
 1.05303
-1.2821
+1.28209
 1.36783
 1.35448
 1.33412
@@ -51,7 +51,7 @@ internalField   nonuniform List<scalar>
 1.33454
 1.34363
 1.38335
-1.2821
+1.28209
 1.36783
 1.35448
 1.33412
@@ -75,7 +75,7 @@ internalField   nonuniform List<scalar>
 1.33626
 1.34488
 1.38387
-1.23787
+1.23786
 1.35027
 1.35105
 1.33661
@@ -93,7 +93,7 @@ internalField   nonuniform List<scalar>
 1.33622
 1.34546
 1.38438
-1.28733
+1.28732
 1.36019
 1.35105
 1.3359
@@ -123,7 +123,7 @@ internalField   nonuniform List<scalar>
 1.33365
 1.3453
 1.38493
-1.28426
+1.28425
 1.35659
 1.3436
 1.33305
@@ -183,7 +183,7 @@ internalField   nonuniform List<scalar>
 1.31806
 1.347
 1.39075
-1.12725
+1.12724
 1.25891
 1.30226
 1.3156
@@ -201,7 +201,7 @@ internalField   nonuniform List<scalar>
 1.31532
 1.35638
 1.39455
-1.11942
+1.11941
 1.1856
 1.26738
 1.31747
@@ -232,7 +232,7 @@ internalField   nonuniform List<scalar>
 1.37409
 1.3991
 1.23997
-1.25804
+1.25803
 1.29797
 1.34437
 1.38079
@@ -262,7 +262,7 @@ internalField   nonuniform List<scalar>
 1.40371
 1.40302
 1.39674
-1.39486
+1.39485
 1.40858
 1.41579
 1.40628
@@ -285,14 +285,14 @@ internalField   nonuniform List<scalar>
 1.42073
 1.40205
 1.40246
-1.53432
+1.53431
 1.50162
 1.45555
 1.41348
 1.40074
 1.40238
-1.52173
-1.48989
+1.52172
+1.48988
 1.43941
 1.40581
 1.40016
@@ -315,7 +315,7 @@ internalField   nonuniform List<scalar>
 1.40001
 1.40001
 1.4023
-1.38488
+1.38487
 1.39811
 1.39997
 1.4
@@ -353,7 +353,7 @@ boundaryField
     inlet
     {
         type            calculated;
-        value           nonuniform 0();
+        value           nonuniform List<scalar> 0();
     }
     outlet
     {
@@ -421,7 +421,7 @@ boundaryField
     triangle
     {
         type            calculated;
-        value           nonuniform 0();
+        value           nonuniform List<scalar> 0();
     }
     top
     {
@@ -438,12 +438,12 @@ boundaryField
     procBoundary7to2
     {
         type            processor;
-        value           nonuniform List<scalar> 7(0.681373 0.707598 0.728258 1.07043 1.07043 1.05303 1.01593);
+        value           nonuniform List<scalar> 7(0.681373 0.707597 0.728258 1.07043 1.07043 1.05303 1.01593);
     }
     procBoundary7to3
     {
         type            processor;
-        value           nonuniform List<scalar> 8(1.35174 1.33626 1.34488 1.38387 0.983711 1.23939 1.35291 1.35291);
+        value           nonuniform List<scalar> 8(1.35174 1.33626 1.34488 1.38387 0.98371 1.23939 1.35291 1.35291);
     }
     procBoundary7to6
     {
@@ -451,11 +451,11 @@ boundaryField
         value           nonuniform List<scalar> 
 47
 (
-0.983711
-0.964472
-0.960365
-0.977296
-0.993976
+0.98371
+0.964471
+0.960364
+0.977295
+0.993975
 1.02077
 1.04188
 1.04671
@@ -465,11 +465,11 @@ boundaryField
 1.05913
 1.06119
 1.06751
-1.07622
+1.07621
 1.07859
 1.07509
 1.06317
-1.03823
+1.03822
 1.03036
 1.0317
 1.04683

@@ -2,7 +2,7 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  7
+    \\  /    A nd           | Version:  8
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -31,8 +31,7 @@ FoamFile
     }
     triangle
     {
-        type            wall;
-        inGroups        List<word> 1(wall);
+        type            patch;
         nFaces          0;
         startFace       642;
     }
@@ -64,7 +63,6 @@ FoamFile
         nFaces          47;
         startFace       1299;
         matchTolerance  0.0001;
-        transform       unknown;
         myProcNo        3;
         neighbProcNo    2;
     }
@@ -75,7 +73,6 @@ FoamFile
         nFaces          8;
         startFace       1346;
         matchTolerance  0.0001;
-        transform       unknown;
         myProcNo        3;
         neighbProcNo    7;
     }

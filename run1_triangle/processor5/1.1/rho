@@ -2,7 +2,7 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  7
+    \\  /    A nd           | Version:  8
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -21,45 +21,45 @@ internalField   nonuniform List<scalar>
 325
 (
 3.46935
-5.96993
-6.82272
-5.77378
+5.9699
+6.82274
+5.77379
 1.39675
 1.41032
 1.44897
-2.95648
-5.20972
+2.95644
+5.20973
 4.98803
 1.40075
 1.40078
 1.40083
 1.45138
-4.07101
+4.07099
 5.06382
 1.4007
 1.40077
 1.40086
 1.40107
-2.40536
-4.75496
+2.40533
+4.75495
 1.40069
 1.40076
 1.40084
 1.40105
 1.4273
-3.7547
+3.75468
 1.4007
 1.40077
 1.40087
 1.40099
 1.40123
-2.13566
+2.13562
 1.4007
 1.40077
 1.40088
 1.40098
 1.40118
-1.41418
+1.41417
 1.4007
 1.40077
 1.40085
@@ -353,17 +353,17 @@ boundaryField
     inlet
     {
         type            calculated;
-        value           nonuniform 0();
+        value           nonuniform List<scalar> 0();
     }
     outlet
     {
         type            calculated;
-        value           nonuniform 0();
+        value           nonuniform List<scalar> 0();
     }
     triangle
     {
         type            calculated;
-        value           nonuniform List<scalar> 4(3.46935 5.96993 6.82272 5.77378);
+        value           nonuniform List<scalar> 4(3.46935 5.9699 6.82274 5.77379);
     }
     top
     {
@@ -437,15 +437,15 @@ boundaryField
 43
 (
 5.18333
-4.94323
+4.94322
 4.9208
 4.79103
 4.71318
-4.52151
-3.56985
-2.12999
+4.5215
+3.56982
+2.12995
 1.42729
-1.4014
+1.40139
 1.40123
 1.401
 1.40091
